@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="zad1_1.css">
+</head>
+<body>
+ 
+
+<h1>HTML Форма</h1>
+
+<form class="modal">
+  Имя:<input type="text" name="firstname" placeholder="Рукижат" >
+  <br>
+  <br>
+  Email:<input type="text" name="email" placeholder="1132310@gmail.com">
+  <br>
+  <br>
+  Возраст:<input type="text" name="age" placeholder="19">
+</form>
+
+<form class="modal">
+  <p>Пол:</p>
+  <input type="radio" name="gender" value="male" checked> Мужчина<br>
+  <input type="radio" name="gender" value="female"> Женщина<br>
+  <input type="radio" name="gender" value="other"> другое
+</form> 
+
+<form class="modal">
+  <p>Как относитесь к рекламе в интернете?</p>
+  <input type="radio" name="gender" value="male" checked> Положительно<br>
+  <input type="radio" name="gender" value="female"> Отрицательно<br>
+  <input type="radio" name="gender" value="other"> Нейтрално
+</form> 
+
+
+<form class="modal">
+  <p>Каким бразуером вы обычно пользуетесь?</p>
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit" class="modal">
+</form>
+
+<form>
+  <p>Комментарий:</p>
+  <textarea name="message" rows="10" cols="30"></textarea>
+  <br>
+  <input type="submit">
+</form>
+
+
+</body>
+</html>
